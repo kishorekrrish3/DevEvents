@@ -12,7 +12,11 @@ export async function POST(req: NextRequest) {
 
         let event;
 
-        event = Object.fromEntries(formData.entries());
+        try {
+            event = Object.fromEntries(formData.entries());
+        } catch (e) {
+            return NextResponse.json({ message: 'Invalid JSON data format' }, { status: 400 })
+        }
 
         const file = formData.get('image') as File;
 
@@ -55,6 +59,6 @@ export async function GET() {
 
         return NextResponse.json({ message: 'Events fetched successfully', events }, { status: 200 });
     } catch (e) {
-        return NextResponse.json({ message: 'Event fetching failed', error: e instanceof Error ? e.message : 'Unknown' }, { status: 500 });
+        return NextResponse.json({ message: 'Event fetching failed', error: e }, { status: 500 });
     }
 }

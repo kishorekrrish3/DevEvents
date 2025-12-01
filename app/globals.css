@@ -3,15 +3,6 @@
 
 @custom-variant dark (&:is(.dark *));
 
-ul {
-  list-style-type: none;
-}
-
-/* Or for ordered lists */
-ol {
-  list-style-type: none;
-}
-
 :root {
   --color-blue: #94eaff;
   --color-light-100: #e7f2ff;
