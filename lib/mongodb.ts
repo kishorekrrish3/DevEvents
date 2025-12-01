@@ -38,12 +38,11 @@ if (!cached) {
 }
 
 /**
- * Connects to the MongoDB database using Mongoose.
- * 
- * This function implements a caching strategy to reuse the database connection
- * across multiple invocations, which is critical in a serverless/Next.js environment.
- * 
- * @returns {Promise<typeof mongoose>} A promise that resolves to the Mongoose instance.
+ * Establishes and returns a cached Mongoose connection to MongoDB.
+ *
+ * Reuses an in-process cache so subsequent calls return the existing connection. If a connection attempt fails the cached promise is cleared so a future call can retry.
+ *
+ * @returns The connected Mongoose instance.
  */
 async function connectToDatabase(): Promise<typeof mongoose> {
     // If a cached connection exists, return it immediately.
