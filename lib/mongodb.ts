@@ -23,7 +23,7 @@ interface MongooseCache {
  */
 declare global {
     // eslint-disable-next-line no-var
-    var mongoose: MongooseCache | undefined;
+    var mongooseCache: MongooseCache | undefined;
 }
 
 /**
@@ -31,10 +31,10 @@ declare global {
  * in development. This prevents connections from growing exponentially
  * during API Route usage.
  */
-let cached = global.mongoose;
+let cached = global.mongooseCache;
 
 if (!cached) {
-    cached = global.mongoose = { conn: null, promise: null };
+    cached = global.mongooseCache = { conn: null, promise: null };
 }
 
 /**
