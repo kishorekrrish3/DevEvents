@@ -280,4 +280,5 @@ This project is **open source**.
 ## 👤 Author
 
 **Kishore P**
+AI & Full-Stack Developer
 VIT Chennai
