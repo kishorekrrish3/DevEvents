@@ -1,7 +1,3 @@
-Great — I’ll update the README to include **Google’s Anti-Gravity IDE**, **PostHog**, **MongoDB**, and **Vercel**, and refine everything so it looks premium, complete, and portfolio-ready.
-
-Here is your **updated full README.md template**:
-
 ---
 
 # 🌐 DevEvents — Developer Event Platform
