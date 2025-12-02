@@ -226,8 +226,8 @@ NEXT_PUBLIC_POSTHOG_HOST=your_zone_posthog_url
 NEXT_PUBLIC_BASE_URL=deployment_url
 MONGODB_URI=your_mongodb_connection_string
 CLOUDINARY_URL=your_cloudinary_url
-
 ---
+```
 
 ## 🖼️ Screenshots
 
