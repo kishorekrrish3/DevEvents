@@ -270,13 +270,6 @@ Next.js 16 is automatically optimized by Vercel.
 
 ---
 
-## 📄 License
-
-This project is **open source**.
-(Add MIT or another license if required.)
-
----
-
 ## 👤 Author
 
 **Kishore P**
