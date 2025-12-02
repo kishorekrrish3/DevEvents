@@ -232,9 +232,9 @@ CLOUDINARY_URL=your_cloudinary_url
 
 ## 🖼️ Screenshots
 
-[Home Page](./public/screenshot-1.png)
-[Event Page 1](./public/screenshot-2.png)
-[Event Page 2](./public/screenshot-3.png)
+![Home Page](./public/screenshot-1.png)
+![Event Page 1](./public/screenshot-2.png)
+![Event Page 2](./public/screenshot-3.png)
 
 ---
 
