@@ -280,7 +280,4 @@ This project is **open source**.
 ## 👤 Author
 
 **Kishore P**
-
----
-
-Just tell me!
+VIT Chennai
